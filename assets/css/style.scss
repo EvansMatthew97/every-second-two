@@ -9,7 +9,7 @@ body {
 	font-size: 12pt;
 	color: #fff;
 	text-align: center;
-	background: #252c41;
+	background: #474e63;
 }
 
 h1, .footer {
@@ -176,11 +176,11 @@ a {
 	&__b {
 		@extend .bg;
 		top: 80px;
+		height: auto;
 		color: #333;
 		overflow-y: scroll;
 		text-align: left;
 		padding: 20px 40px;
-		padding-bottom: 80px;
 		line-height: 1.5;
 		font-family: 'Georgia', serif;
 		font-size: 14pt;
