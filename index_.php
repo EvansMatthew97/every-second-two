@@ -12,6 +12,9 @@ global $data;
 	<title>Every Second</title>
 
 	<link rel="stylesheet" href="./assets/css/style.css">
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="./assets/css/old.css">
+	<![endif]-->
 </head>
 <body id="page">
 	<div class="header">
@@ -57,6 +60,7 @@ global $data;
 			<div class="m__b" id="m_body"></div>
 		</div>
 	</div>
+	
 	<script src="./assets/js/es.js"></script>
 	<?php
 		}
